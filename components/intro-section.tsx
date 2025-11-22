@@ -21,31 +21,23 @@ export default function IntroSection() {
           <h2 className="mb-8 text-center font-[family-name:var(--font-gt-maru)] text-4xl font-extralight text-gray-200 md:text-5xl">
             About Mankind Research Labs Sandton
           </h2>
-          
+
           <div className="space-y-6 font-[family-name:var(--font-gt-pressura)] text-lg leading-relaxed text-gray-300 text-left max-w-5xl">
-            <TypewriterText 
-              text="Mankind Research Labs Sandton is a private artificial intelligence research lab and organisation headquartered in Sandton, South Africa. The organisation is built on a foundation of long-term scientific exploration, focusing exclusively on the development of advanced artificial intelligence architectures, new computational paradigms, and the next evolution of intelligent systems."
-              className="text-lg text-gray-300 font-[family-name:var(--font-gt-pressura)] font-light leading-relaxed"
-              speed={15}
-            />
-            
-            <TypewriterText 
-              text="Mankind Research Labs Sandton pursues research that is unconstrained by short product cycles or commercial pressure. Its work is driven by a belief that major breakthroughs arise only from deep investigation, original theoretical thinking, and relentless experimentation across multiple layers of computation, mathematics, and machine intelligence."
-              className="text-lg text-gray-300 font-[family-name:var(--font-gt-pressura)] font-light leading-relaxed"
-              speed={15}
-            />
-            
-            <TypewriterText 
-              text="The organisation maintains a research culture defined by precision, independence, and intellectual rigor. Researchers operate with complete freedom to explore frontier ideas in high-performance computing, large-scale model design, intelligent algorithms, and novel frameworks that challenge the limitations of conventional technology. The goal is not to follow global trends, but to redefine the foundations upon which future artificial intelligence systems will be built."
-              className="text-lg text-gray-300 font-[family-name:var(--font-gt-pressura)] font-light leading-relaxed"
-              speed={15}
-            />
-            
-            <TypewriterText 
-              text="Mankind Research Labs Sandton is committed to building technologies that shift entire paradigms, elevate scientific understanding, and open pathways for new generations of researchers, engineers, and visionaries across the African continent and the world."
-              className="text-lg text-gray-300 font-[family-name:var(--font-gt-pressura)] font-light leading-relaxed"
-              speed={15}
-            />
+            <p className="text-lg text-gray-300 font-[family-name:var(--font-gt-pressura)] font-light leading-relaxed">
+              Mankind Research Labs Sandton is a private artificial intelligence research lab and organisation headquartered in Sandton, South Africa. The organisation is built on a foundation of long-term scientific exploration, focusing exclusively on the development of advanced artificial intelligence architectures, new computational paradigms, and the next evolution of intelligent systems.
+            </p>
+
+            <p className="text-lg text-gray-300 font-[family-name:var(--font-gt-pressura)] font-light leading-relaxed">
+              Mankind Research Labs Sandton pursues research that is unconstrained by short product cycles or commercial pressure. Its work is driven by a belief that major breakthroughs arise only from deep investigation, original theoretical thinking, and relentless experimentation across multiple layers of computation, mathematics, and machine intelligence.
+            </p>
+
+            <p className="text-lg text-gray-300 font-[family-name:var(--font-gt-pressura)] font-light leading-relaxed">
+              The organisation maintains a research culture defined by precision, independence, and intellectual rigor. Researchers operate with complete freedom to explore frontier ideas in high-performance computing, large-scale model design, intelligent algorithms, and novel frameworks that challenge the limitations of conventional technology. The goal is not to follow global trends, but to redefine the foundations upon which future artificial intelligence systems will be built.
+            </p>
+
+            <p className="text-lg text-gray-300 font-[family-name:var(--font-gt-pressura)] font-light leading-relaxed">
+              Mankind Research Labs Sandton is committed to building technologies that shift entire paradigms, elevate scientific understanding, and open pathways for new generations of researchers, engineers, and visionaries across the African continent and the world.
+            </p>
           </div>
         </div>
 

@@ -61,7 +61,7 @@ export default function HeroMankind() {
 
           {/* Hero image */}
           <div
-            className="relative mx-auto max-w-2xl"
+            className="relative mx-auto max-w-3xl"
             data-aos="fade-up"
             data-aos-delay={800}
           >

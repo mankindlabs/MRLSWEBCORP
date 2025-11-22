@@ -8,6 +8,7 @@ import HeroMankind from "@/components/hero-mankind";
 import IntroSection from "@/components/intro-section";
 import DualArms from "@/components/dual-arms";
 import Image from "next/image";
+import ReceptionPlaque from "../../assets/MANKINDGOODZ/INSIDE_THE_HQ/RECEPTION_PLAQUE.png";
 
 export default function Home() {
   return (
@@ -23,12 +24,9 @@ export default function Home() {
           <div className="flex justify-center" data-aos="fade-up">
             <div className="relative rounded-2xl bg-gradient-to-br from-gray-800/50 to-gray-900/50 p-1 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(135deg,var(--color-purple-500),var(--color-pink-500),var(--color-purple-500))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] after:absolute after:inset-0 after:rounded-[inherit] after:bg-gradient-to-br after:from-purple-500/10 after:to-pink-500/10 after:-z-10">
               <Image
-                src="/images/hq/RECEPTION_PLAQUE.png"
+                src={ReceptionPlaque}
                 alt="Mankind Research Labs Reception"
-                width={570}
-                height={510}
                 className="rounded-xl"
-                unoptimized
               />
             </div>
           </div>

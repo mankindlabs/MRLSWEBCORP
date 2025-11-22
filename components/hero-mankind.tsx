@@ -10,12 +10,12 @@ export default function HeroMankind() {
           {/* Logo at top */}
           <div className="pb-8 text-center" data-aos="fade-down">
             <div className="inline-block">
-              <div className="flex h-20 w-20 items-center justify-center rounded-3xl bg-gradient-to-br from-cyan-500/20 to-purple-500/20 border border-cyan-500/30 mx-auto">
+              <div className="flex h-25 w-25 items-center justify-center rounded-3xl bg-gradient-to-br from-cyan-500/20 to-purple-500/20 border border-cyan-500/30 mx-auto">
                 <Image
                   src="/images/branding/LOGO_NOLETTERS.png"
                   alt="Mankind Research Labs"
-                  width={40}
-                  height={40}
+                  width={50}
+                  height={50}
                   className="opacity-90"
                 />
               </div>
@@ -61,7 +61,7 @@ export default function HeroMankind() {
 
           {/* Hero image */}
           <div
-            className="relative mx-auto max-w-4xl"
+            className="relative mx-auto max-w-2xl"
             data-aos="fade-up"
             data-aos-delay={800}
           >

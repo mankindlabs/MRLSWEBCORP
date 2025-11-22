@@ -5,7 +5,6 @@ export const metadata = {
 
 import PageIllustration from "@/components/page-illustration";
 import HeroMankind from "@/components/hero-mankind";
-import HQSlider from "@/components/hq-slider";
 import IntroSection from "@/components/intro-section";
 import DualArms from "@/components/dual-arms";
 import Image from "next/image";
@@ -17,7 +16,22 @@ export default function Home() {
       <HeroMankind />
       <IntroSection />
       <DualArms />
-      <HQSlider />
+      
+      {/* Reception Plaque Section */}
+      <section className="relative py-12 md:py-16">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
+          <div className="flex justify-center" data-aos="fade-up">
+            <Image
+              src="/images/hq/RECEPTION_PLAQUE.webp"
+              alt="Mankind Research Labs Reception"
+              width={570}
+              height={510}
+              className="rounded-2xl"
+              unoptimized
+            />
+          </div>
+        </div>
+      </section>
       
       {/* Bottom Contact & Motto Section */}
       <section className="relative py-12 md:py-16">
@@ -34,19 +48,6 @@ export default function Home() {
                   className="opacity-90"
                 />
               </div>
-            </div>
-
-            {/* Contact Info */}
-            <div className="inline-block rounded-2xl bg-gradient-to-br from-gray-800/50 to-gray-900/50 px-8 py-6 border border-gray-700/50 mb-8">
-              <p className="text-sm text-gray-400 font-[family-name:var(--font-gt-pressura)] font-light mb-4">
-                For corporate and innovation enquiries
-              </p>
-              <p className="text-lg text-cyan-300 font-[family-name:var(--font-gt-maru)] font-light mb-4">
-                lab@mankindresearch.org
-              </p>
-              <p className="text-sm text-gray-500 font-[family-name:var(--font-gt-pressura)] font-light">
-                Sandton, South Africa
-              </p>
             </div>
 
             {/* Motto with Glow */}

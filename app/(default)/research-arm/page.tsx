@@ -154,17 +154,17 @@ export default function ResearchArm() {
                     data-aos="fade-up"
                     data-aos-delay={index * 50}
                   >
-                    <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-purple-500/20 to-pink-500/20 border border-purple-500/30">
+                    <div className="mb-4 flex h-18 w-18 items-center justify-center rounded-xl bg-gradient-to-br from-purple-500/20 to-pink-500/20 border border-purple-500/30 mx-auto">
                       <Image
                         src="/images/institutions/ACADEMICS.png"
                         alt="Academic Institution"
-                        width={28}
-                        height={28}
+                        width={42}
+                        height={42}
                         className="opacity-90"
                         unoptimized
                       />
                     </div>
-                    <p className="text-sm text-gray-300 font-[family-name:var(--font-gt-pressura)] font-light leading-relaxed">
+                    <p className="text-sm text-gray-300 font-[family-name:var(--font-gt-pressura)] font-semibold leading-relaxed text-center hover:text-blue-400 transition-colors duration-300">
                       {collab.name}
                     </p>
                   </div>
@@ -189,17 +189,17 @@ export default function ResearchArm() {
                   className="rounded-2xl bg-gradient-to-br from-cyan-500/5 to-blue-500/5 p-6 border border-cyan-500/20 hover:border-cyan-500/40 transition-all duration-300 hover:shadow-[0_0_30px_rgba(6,182,212,0.3)]"
                   data-aos="fade-up"
                 >
-                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-500/30">
+                  <div className="mb-4 flex h-18 w-18 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-500/30 mx-auto">
                     <Image
                       src="/images/institutions/ACADEMICS.png"
                       alt="Academic Institution"
-                      width={28}
-                      height={28}
+                      width={42}
+                      height={42}
                       className="opacity-90"
                       unoptimized
                     />
                   </div>
-                  <p className="text-sm text-gray-300 font-[family-name:var(--font-gt-pressura)] font-light">
+                  <p className="text-sm text-gray-300 font-[family-name:var(--font-gt-pressura)] font-semibold text-center hover:text-blue-400 transition-colors duration-300">
                     University of Hawai'i at Manoa
                   </p>
                 </div>
@@ -208,17 +208,17 @@ export default function ResearchArm() {
                   data-aos="fade-up"
                   data-aos-delay={100}
                 >
-                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-500/30">
+                  <div className="mb-4 flex h-18 w-18 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-500/30 mx-auto">
                     <Image
                       src="/images/institutions/ACADEMICS.png"
                       alt="Academic Institution"
-                      width={28}
-                      height={28}
+                      width={42}
+                      height={42}
                       className="opacity-90"
                       unoptimized
                     />
                   </div>
-                  <p className="text-sm text-gray-300 font-[family-name:var(--font-gt-pressura)] font-light">
+                  <p className="text-sm text-gray-300 font-[family-name:var(--font-gt-pressura)] font-semibold text-center hover:text-blue-400 transition-colors duration-300">
                     Cornell University
                   </p>
                 </div>
@@ -242,17 +242,17 @@ export default function ResearchArm() {
                     data-aos="fade-up"
                     data-aos-delay={index * 100}
                   >
-                    <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-orange-500/20 to-amber-500/20 border border-orange-500/30 mx-auto">
+                    <div className="mb-4 flex h-18 w-18 items-center justify-center rounded-xl bg-gradient-to-br from-orange-500/20 to-amber-500/20 border border-orange-500/30 mx-auto">
                       <Image
                         src="/images/institutions/PRIVATE_RESEARCH_INSTITUTIONS_RESEARCH.png"
                         alt="Private Research Institution"
-                        width={28}
-                        height={28}
+                        width={42}
+                        height={42}
                         className="opacity-90"
                         unoptimized
                       />
                     </div>
-                    <p className="text-gray-300 font-[family-name:var(--font-gt-pressura)] font-light">
+                    <p className="text-gray-300 font-[family-name:var(--font-gt-pressura)] font-semibold text-center hover:text-blue-400 transition-colors duration-300">
                       {centre}
                     </p>
                   </div>
@@ -277,17 +277,17 @@ export default function ResearchArm() {
                     data-aos="fade-up"
                     data-aos-delay={index * 100}
                   >
-                    <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-500/20 to-teal-500/20 border border-emerald-500/30 mx-auto">
+                    <div className="mb-4 flex h-18 w-18 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-500/20 to-teal-500/20 border border-emerald-500/30 mx-auto">
                       <Image
                         src="/images/institutions/GOVERNMENT_INSTITUTIONS.webp"
                         alt="Government Institution"
-                        width={28}
-                        height={28}
+                        width={42}
+                        height={42}
                         className="opacity-90"
                         unoptimized
                       />
                     </div>
-                    <p className="text-sm text-gray-300 font-[family-name:var(--font-gt-pressura)] font-light text-center">
+                    <p className="text-sm text-gray-300 font-[family-name:var(--font-gt-pressura)] font-semibold text-center hover:text-blue-400 transition-colors duration-300">
                       {partner.name}
                     </p>
                   </div>
@@ -309,17 +309,17 @@ export default function ResearchArm() {
                   className="rounded-xl bg-gradient-to-br from-blue-500/5 to-indigo-500/5 p-6 border border-blue-500/20 hover:border-blue-500/40 transition-all duration-300 hover:shadow-[0_0_30px_rgba(59,130,246,0.3)]"
                   data-aos="fade-up"
                 >
-                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-blue-500/20 to-indigo-500/20 border border-blue-500/30 mx-auto">
+                  <div className="mb-4 flex h-18 w-18 items-center justify-center rounded-xl bg-gradient-to-br from-blue-500/20 to-indigo-500/20 border border-blue-500/30 mx-auto">
                     <Image
                       src="/images/institutions/POTAIN_FOR_ENGINEERING_INSTITUTIONS.png"
                       alt="Engineering Institution"
-                      width={28}
-                      height={28}
+                      width={42}
+                      height={42}
                       className="opacity-90"
                       unoptimized
                     />
                   </div>
-                  <p className="text-sm text-gray-300 font-[family-name:var(--font-gt-pressura)] font-light text-center">
+                  <p className="text-sm text-gray-300 font-[family-name:var(--font-gt-pressura)] font-semibold text-center hover:text-blue-400 transition-colors duration-300">
                     Microsoft Research South Africa
                   </p>
                 </div>
@@ -328,17 +328,17 @@ export default function ResearchArm() {
                   data-aos="fade-up"
                   data-aos-delay={100}
                 >
-                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-blue-500/20 to-indigo-500/20 border border-blue-500/30 mx-auto">
+                  <div className="mb-4 flex h-18 w-18 items-center justify-center rounded-xl bg-gradient-to-br from-blue-500/20 to-indigo-500/20 border border-blue-500/30 mx-auto">
                     <Image
                       src="/images/institutions/POTAIN_FOR_ENGINEERING_INSTITUTIONS.png"
                       alt="Engineering Institution"
-                      width={28}
-                      height={28}
+                      width={42}
+                      height={42}
                       className="opacity-90"
                       unoptimized
                     />
                   </div>
-                  <p className="text-sm text-gray-300 font-[family-name:var(--font-gt-pressura)] font-light text-center">
+                  <p className="text-sm text-gray-300 font-[family-name:var(--font-gt-pressura)] font-semibold text-center hover:text-blue-400 transition-colors duration-300">
                     Microsoft Research Kenya
                   </p>
                 </div>
@@ -347,17 +347,17 @@ export default function ResearchArm() {
                   data-aos="fade-up"
                   data-aos-delay={200}
                 >
-                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-blue-500/20 to-indigo-500/20 border border-blue-500/30 mx-auto">
+                  <div className="mb-4 flex h-18 w-18 items-center justify-center rounded-xl bg-gradient-to-br from-blue-500/20 to-indigo-500/20 border border-blue-500/30 mx-auto">
                     <Image
                       src="/images/institutions/POTAIN_FOR_ENGINEERING_INSTITUTIONS.png"
                       alt="Engineering Institution"
-                      width={28}
-                      height={28}
+                      width={42}
+                      height={42}
                       className="opacity-90"
                       unoptimized
                     />
                   </div>
-                  <p className="text-sm text-gray-300 font-[family-name:var(--font-gt-pressura)] font-light text-center">
+                  <p className="text-sm text-gray-300 font-[family-name:var(--font-gt-pressura)] font-semibold text-center hover:text-blue-400 transition-colors duration-300">
                     Bill and Melinda Gates Foundation
                   </p>
                 </div>

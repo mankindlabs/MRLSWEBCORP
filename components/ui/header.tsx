@@ -46,15 +46,6 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <a 
-                  href="https://openresearch.mankindresearch.org" 
-                  onClick={handleOpenResearchClick}
-                  className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 whitespace-nowrap cursor-pointer"
-                >
-                  Open Research
-                </a>
-              </li>
-              <li>
                 <Link href="/contact" className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 whitespace-nowrap">
                   Contact
                 </Link>

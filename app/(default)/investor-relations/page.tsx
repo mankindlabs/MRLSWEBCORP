@@ -1,7 +1,4 @@
-export const metadata = {
-  title: "Investor Relations - Mankind Research Labs Sandton",
-  description: "Investment opportunities and strategic partnerships with Mankind Research Labs",
-};
+"use client";
 
 import PageIllustration from "@/components/page-illustration";
 import Image from "next/image";

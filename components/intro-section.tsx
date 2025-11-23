@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useEffect } from "react";
 import AOS from "aos";
 import TypewriterText from "./typewriter-text";
+import ModelLoader from "../assets/MANKINDGOODZ/Model_Loader.gif";
 
 export default function IntroSection() {
   useEffect(() => {
@@ -71,7 +72,7 @@ export default function IntroSection() {
           <div className="flex flex-col md:flex-row-reverse items-center gap-8" data-aos="fade-left">
             <div className="md:w-1/3">
               <Image
-                src="/images/gifs/FAVOURITE_SWIRL_MANKIND_LOGO_LOADER_SITE_OPENER.gif"
+                src={ModelLoader}
                 alt="Machine Learning R&D"
                 width={400}
                 height={400}

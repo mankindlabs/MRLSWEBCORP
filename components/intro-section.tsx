@@ -106,10 +106,10 @@ export default function IntroSection() {
             </div>
             <div className="md:w-2/3">
               <h3 className="mb-4 font-[family-name:var(--font-gt-maru)] text-3xl font-extralight text-purple-400">
-                Advanced Data Science Engines and Pipeline Research Design and Development
+                Advanced Data Science Engines & Pipeline Development
               </h3>
               <TypewriterText 
-                text="Our cutting-edge R&D specializes in advanced data science engines and pipeline research design and development. We build sophisticated data infrastructure, processing frameworks, and analytical pipelines that power next-generation AI systems. From high-performance data ingestion to complex transformation workflows, we engineer the backbone of intelligent data operations."
+                text="We design and build next-generation data science engines and analytical pipelines that power AI at scale. Our R&D delivers high-performance data infrastructure, seamless data ingestion, and complex transformation workflows, forming the backbone of intelligent, scalable, and efficient data operations. We turn data into actionable insights, enabling transformative AI solutions across industries."
                 className="font-[family-name:var(--font-gt-pressura)] text-lg leading-relaxed text-gray-300"
                 speed={15}
               />

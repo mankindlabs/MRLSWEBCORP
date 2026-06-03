@@ -42,6 +42,9 @@ const gtPressura = localFont({
 export const metadata = {
   title: "Mankind Research Labs Sandton",
   description: "Redefining Intelligence. Advancing Research. Translating Innovation.",
+  icons: {
+    icon: "/M_LOGO.png",
+  },
 };
 
 export default function RootLayout({

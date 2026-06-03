@@ -137,7 +137,7 @@ export default function Footer() {
             </div>
             <div className="text-sm">
               <p className="mb-3 text-cyan-200/65 font-[family-name:var(--font-gt-pressura)] font-light">
-                © 2014-2025 Mankind Research Labs Sandton
+                © 2014-2026 Mankind Research Labs Sandton
               </p>
               <p className="text-xs text-cyan-200/40 font-[family-name:var(--font-gt-pressura)] font-light">
                 Redefining Intelligence. Advancing Research. Translating Innovation.
